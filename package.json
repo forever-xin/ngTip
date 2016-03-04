@@ -1,0 +1,27 @@
+{
+  "name": "ngTip",
+  "version": "1.0.0",
+  "description": "angularjs simple tip service with bootstrap alert style",
+  "main": "index.js",
+  "scripts": {
+    "start": "bower install",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/savokiss/ngTip.git"
+  },
+  "keywords": [
+    "simple",
+    "tip",
+    "service",
+    "in",
+    "angularjs"
+  ],
+  "author": "savokiss",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/savokiss/ngTip/issues"
+  },
+  "homepage": "https://github.com/savokiss/ngTip#readme"
+}

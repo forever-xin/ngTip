@@ -1,0 +1,29 @@
+{
+  "name": "ngTip",
+  "description": "angularjs simple tip service with bootstrap alert style",
+  "main": "index.js",
+  "authors": [
+    "savokiss"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "simple",
+    "tip",
+    "service",
+    "in",
+    "angularjs"
+  ],
+  "homepage": "https://github.com/savokiss/ngTip",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.6",
+    "angular": "~1.5.0"
+  }
+}

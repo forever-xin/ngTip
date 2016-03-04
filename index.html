@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp">
+<head>
+  <meta charset="UTF-8">
+  <title>ngTip Demos</title>
+  <link rel="stylesheet" href="vendor/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="src/ngTip.css">
+</head>
+<body>
+  <ng-tip class="alert_bar"></ng-tip>
+  <div class="container" ng-controller="DemoController">
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <h2>colorful tips</h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <button class="btn btn-info" ng-click="ngTip.tip('info')">info(default)</button>
+        <button class="btn btn-success" ng-click="ngTip.tip('success','success')">success</button>
+        <button class="btn btn-warning" ng-click="ngTip.tip('warning','warning')">warning</button>
+        <button class="btn btn-danger" ng-click="ngTip.tip('danger','danger')">danger</button>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <h2>write and tip</h2>
+      </div>
+      <div class="col-md-4 col-md-offset-4">
+        <textarea class="form-control" rows="3" ng-model="vm.text"></textarea>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-4 col-md-offset-4 text-center">
+        <button type="button" class="btn btn-primary btn-block" ng-click="ngTip.tip(vm.text)">Tip</button>
+      </div>
+    </div>
+  </div>
+
+
+  <script src="vendor/angular/angular.min.js"></script>
+  <script src="src/ngTip.js"></script>
+  <script>
+    angular.module('myApp',['ngTip'])
+            .config(function(ngTipProvider){
+              ngTipProvider.setDefaultTimeout(1000);
+            })
+            .controller('DemoController',function($scope,ngTip){
+              var vm = $scope.vm = {};
+              vm.text = 'edit and tip';
+              $scope.ngTip = ngTip;
+            })
+  </script>
+</body>
+</html>
