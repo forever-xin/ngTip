@@ -1,4 +1,3 @@
-'use strict';
-/**
- * Created by Lion on 2016-03-04.
- */
+
+var gulp = require('gulp');
+var uglify = require('gulp-uglify');
