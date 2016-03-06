@@ -8,7 +8,11 @@ angularjs simple tip service with bootstrap alert style
  - angularjs 1.3+
 
 ##Install
-include the `dist/ngTip.js` and `dist/ngTip.css` in your html
+
+```
+bower install ngTip --save
+```
+then include the `dist/ngTip.js` and `dist/ngTip.css` in your html
 
 ##Usage
 - require `ngTip` module

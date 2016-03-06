@@ -1,7 +1,10 @@
 {
   "name": "ngTip",
   "description": "angularjs simple tip service with bootstrap alert style",
-  "main": "index.js",
+  "main": [
+    "dist/ngTip.js",
+    "dist/ngTip.css"
+  ],
   "authors": [
     "savokiss"
   ],

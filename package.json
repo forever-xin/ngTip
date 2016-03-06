@@ -1,6 +1,6 @@
 {
   "name": "ngTip",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "angularjs simple tip service with bootstrap alert style",
   "main": "index.js",
   "scripts": {
