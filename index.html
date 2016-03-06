@@ -3,11 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <title>ngTip Demos</title>
-  <link rel="stylesheet" href="libs/bootstrap/dist/css/bootstrap.min.css">
-  <link rel="stylesheet" href="src/ngTip.css">
+  <link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="src/ngTip.scss">
 </head>
 <body>
-  <ng-tip class="alert_bar"></ng-tip>
+  <ng-tip ></ng-tip>
   <div class="container" ng-controller="DemoController">
     <div class="row">
       <div class="col-md-12 text-center">
@@ -39,7 +39,7 @@
   </div>
 
 
-  <script src="libs/angular/angular.min.js"></script>
+  <script src="lib/angular/angular.min.js"></script>
   <script src="src/ngTip.js"></script>
   <script>
     angular.module('myApp',['ngTip'])
@@ -50,6 +50,10 @@
               var vm = $scope.vm = {};
               vm.text = 'edit and tip';
               $scope.ngTip = ngTip;
+
+              $scope.openTip = function(){
+                ngTip.tip('tip message here','type');
+              };
             })
   </script>
 </body>
