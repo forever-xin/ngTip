@@ -21,6 +21,9 @@ then include the `dist/ngTip.js` and `dist/ngTip.css` in your html
 angular.module('myApp',['ngTip'])
 ```
 
+- add `<ng-tip></ng-tip>` under your `<body>`
+ 
+ 
 - use `ngTip` service in the controller
 
 ```javascript
