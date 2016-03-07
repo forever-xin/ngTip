@@ -36,6 +36,7 @@ angular.module('myApp').controller('DemoController',function($scope,ngTip){
 ```
 
 - change the default timeout
+
 the default timeout is 3 seconds, you could change that in the `angular.config`
 
 ```
