@@ -7,14 +7,14 @@ angularjs simple tip service with bootstrap alert style
  - bootstrap 3+ 
  - angularjs 1.3+
 
-##Install
+## Install
 
 ```
 bower install ngTip --save
 ```
 then include the `dist/ngTip.js` and `dist/ngTip.css` in your html
 
-##Usage
+## Usage
 - require `ngTip` module
 
 ```javascript
@@ -45,12 +45,12 @@ angular.module('myApp').config(function(ngTipProvider){
 })
 ```
 
-##API
-###`.tip(message, type)`
-####message
+## API
+### `.tip(message, type)`
+#### message
 - the message you'd like to tip
 
-####type
+#### type
 - there're 4 types now: `info`, `success`, `warning`, `danger`
 - `info` is the default one. both from bootstrap alert bar style
 
