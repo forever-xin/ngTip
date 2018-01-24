@@ -1,4 +1,6 @@
 # ngTip
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fsavokiss%2FngTip.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fsavokiss%2FngTip?ref=badge_shield)
+
 angularjs simple tip service with bootstrap alert style
 
 [Demo](http://savokiss.me/ngTip)
@@ -55,3 +57,7 @@ angular.module('myApp').config(function(ngTipProvider){
 - `info` is the default one. both from bootstrap alert bar style
 
 
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fsavokiss%2FngTip.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fsavokiss%2FngTip?ref=badge_large)
